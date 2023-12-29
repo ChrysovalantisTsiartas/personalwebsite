@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const typedText = document.getElementById('typed-text');
+    const typedDate = document.getElementById('typed-date');
     const name = "CHRYSOVALANTIS TSIARTAS"; // Replace with your actual name
     const date= "04 DECEMBER 2002";
 
