@@ -62,25 +62,31 @@ img:hover {
     transform: scale(1.05);
 }
 
-
+.info-box {
+    max-width: 90%; /* Adjust the maximum width for smaller screens */
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
 
 .info-box h2 {
-    font-size: 60px;
+    font-size: 30px;
 }
 
 .info-box p {
     font-size: 20px;
-    text-align: center;
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 50px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 p3 {
-    font-size: 20px;
+    font-size: 40px;
     margin-bottom: 10px;
     font-weight: bold;
     text-align: justify;
@@ -128,20 +134,16 @@ p3:hover {
     }
 
     .info-box {
-    max-width: 95%;
-    margin: 40px auto; /* Adjust the top and bottom margin as needed */
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        max-width: 95%;
     }
-    
 
     .info-box h2 {
         font-size: 24px;
     }
 
-    
+    .info-box p {
+        font-size: 16px;
+    }
 
     h2 {
         font-size: 40px;
