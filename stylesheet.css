@@ -25,7 +25,6 @@ h1 a {
     font-weight: bold;
 }
 
-
 nav ul {
     text-align: center;
     margin: 10px 0;
@@ -132,6 +131,7 @@ p3:hover {
     img {
         margin: 10px auto;
         max-width: 90%;
+        float: right; /* Right-align on smaller screens */
     }
 
     .info-box {
