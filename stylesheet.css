@@ -17,18 +17,18 @@ header {
     font-size: 30px;
 }
 
-h1 a {
-    display: block;
+h1 {
     font-size: 20px; /* Reduced font size */
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    display: inline;
+    display: inline-block; /* Added to make h1 inline */
 }
 
 nav ul {
     text-align: center;
     margin: 10px 0;
+    display: inline-block; /* Added to make nav ul inline */
 }
 
 nav li {
@@ -81,7 +81,6 @@ img:hover {
     font-size: 20px;
     text-align: center;
     color: black;
-    
 }
 
 h2 {
@@ -121,13 +120,15 @@ p3:hover {
         font-size: 20px;
     }
 
-    h1 a {
+    h1 {
         font-size: 20px;
         margin-top: 5px;
+        display: block;
     }
 
     nav ul {
         margin: 5px 0;
+        display: block;
     }
 
     nav a {
