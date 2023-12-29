@@ -25,13 +25,13 @@ h1 a{
     display: inline-block; /* Added to make h1 inline */
 }
 
-nav ul {
+nav {
     text-align: center;
     margin: 10px 0;
     display: inline-block; /* Added to make nav ul inline */
 }
 
-nav li {
+nav a {
     display: inline;
     margin-right: 20px;
 }
