@@ -132,7 +132,6 @@ p3:hover {
     img {
         margin: 10px auto;
         max-width: 90%;
-        float: right; /* Right-align on smaller screens */
     }
 
     .info-box {
