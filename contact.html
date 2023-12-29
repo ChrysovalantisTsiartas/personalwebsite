@@ -1,0 +1,48 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+    
+<title>
+    My Profile
+</title>
+    
+<body>
+    <h1><a href="index.html">Chrys.Tsiar</a></h1>
+    <header>   
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="github.html">GitHub</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <div class="info-box">
+        <h2>Personal Info</h2>
+        <p>
+            <span class="label">Phone:</span> <span class="copyable" onclick="copyText('+35796233063')">+35796233063</span><br>
+            <span class="label">Email:</span> <span class="copyable" onclick="copyText('chrysovalantistsiartas@hotmail.com')">chrysovalantistsiartas@hotmail.com</span>
+            <span class="label">GitHub:</span> <a href="https://github.com/ChrysovalantisTsiartas"> My Github</a> 
+        </p>
+    </div>
+
+    <script>
+        function copyText(text) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            alert('Text copied: ' + text);
+        }
+    </script>
+
+</body>
+</html>
