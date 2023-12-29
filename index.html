@@ -25,8 +25,38 @@
 
     <div class="typing-effect">
         <h1 id="typed-text"></h1>
+        <p id="typed-date" class="typed-text"></p>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const typedText = document.getElementById('typed-text');
+            const typedDate = document.getElementById('typed-date');
+            const name = "CHRYSOVALANTIS TSIARTAS";
+            const date = "04 DECEMBER 2002";
+
+            // Set the initial text to an empty string
+            typedText.innerHTML = '';
+            typedDate.innerHTML = '';
+
+            // Function to simulate typing effect for the name
+            function typeEffect(text, element) {
+                element.innerHTML = "";
+                for (let i = 0; i < text.length; i++) {
+                    setTimeout(function() {
+                        element.innerHTML += text[i];
+                    }, 90 * i);
+                }
+            }
+
+            // Call the typing function for the name
+            typeEffect(name, typedText);
+
+            // After typing the name, add a delay and then type the date
+            setTimeout(function() {
+                typeEffect(date, typedDate);
+            }, 90 * name.length + 1000); // Add a delay of 1000 milliseconds (1 second)
+        });
+    </script>
 </body>
 </html>
