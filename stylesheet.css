@@ -48,6 +48,13 @@ nav a:hover {
     color: #1bd12a;
 }
 
+#logo {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: serif;
+    text-align: left;
+}
+
 img {
     max-width: 45%;
     border-radius: 15px;
