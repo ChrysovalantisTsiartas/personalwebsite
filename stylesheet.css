@@ -25,7 +25,7 @@ header {
     font-size: 30px;
 }
 
-h1 a {
+#logo {
     font-size: 20px; /* Reduced font size */
     color: #fff;
     text-decoration: none;
