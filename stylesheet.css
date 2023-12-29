@@ -17,7 +17,7 @@ header {
     font-size: 30px;
 }
 
-h1 a{
+h1 a {
     font-size: 20px; /* Reduced font size */
     color: #fff;
     text-decoration: none;
@@ -34,9 +34,6 @@ nav {
 nav a {
     display: inline;
     margin-right: 20px;
-}
-
-nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
@@ -127,13 +124,13 @@ p3:hover {
         font-size: 20px;
     }
 
-    h1 {
+    h1 a {
         font-size: 20px;
         margin-top: 5px;
         display: block;
     }
 
-    nav ul {
+    nav {
         margin: 5px 0;
         display: block;
     }
@@ -143,8 +140,9 @@ p3:hover {
     }
 
     img {
-        float: center; 
+        float: none; /* Remove float */
         max-width: 90%;
+        margin: 10px auto; /* Adjust margin */
     }
 
     .info-box {
