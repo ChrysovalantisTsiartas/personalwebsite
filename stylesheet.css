@@ -25,11 +25,6 @@ h1 a {
     font-weight: bold;
 }
 
-.containerprofile {
-    text-align: right;
-    margin-right: 20px; /* Adjust the margin as needed */
-}
-
 nav ul {
     text-align: center;
     margin: 10px 0;
@@ -53,12 +48,13 @@ nav a:hover {
 }
 
 img {
-    max-width: 45%;
+    max-width: 70%;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
     margin: 20px auto;
     display: block;
+    float: right;
 }
 
 img:hover {
@@ -116,7 +112,7 @@ p3:hover {
 
 @media only screen and (max-width: 768px) {
     header {
-        padding: 20px;
+        padding: 10px;
         font-size: 20px;
     }
 
