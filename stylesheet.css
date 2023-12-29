@@ -131,6 +131,7 @@ p3:hover {
 
     img {
         margin: 10px auto;
+        float: center;
     }
 
     .info-box {
