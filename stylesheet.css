@@ -136,8 +136,13 @@ p3:hover {
     }
 
     .info-box {
-        max-width: 95%;
-    }
+    max-width: 95%;
+    margin: 40px auto; /* Adjust the top and bottom margin as needed */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
 
     .info-box h2 {
         font-size: 24px;
