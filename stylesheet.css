@@ -139,7 +139,7 @@ p3:hover {
     }
 
     .info-box {
-        max-width: 75%; /* Adjust the maximum width for smaller screens in the media query */
+        max-width: 90%; /* Adjust the maximum width for smaller screens in the media query */
     }
 
     .info-box h2 {
