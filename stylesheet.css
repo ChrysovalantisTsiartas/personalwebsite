@@ -2,13 +2,17 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('Black-carbon-fabric-wallpaper-for-gamer.jpg');
-    background-size: cover; /* Ensure the background covers the entire body */
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     font-family: 'Arial', sans-serif;
     color: #fff;
     overflow-x: hidden;
+    height: 100vh; /* Set the height to 100% of the viewport height */
 }
+
+/* ... (rest of your CSS remains unchanged) */
+
 
 header {
     background-color: #333;
