@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <title>My Profile</title>
 </head>
+
+<title>
+    Chrysovalantis Tsiartas
+</title>
+
 <body>
+
     <header>
         <nav>
-            <ul>
+            <div id="logo">
                 <a href="index.html">Chrys.Tsiar</a>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="github.html">GitHub</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            </div>
+            <div id="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="github.html">GitHub</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </nav>
     </header>
 
@@ -28,8 +36,15 @@
         <p id="typed-date" class="typed-text"></p>
     </div>
 
+    <!-- Box for CV Download -->
+    <div class="cv-box">
+        <h3>Download CV</h3>
+        <p>Click the button below to download my CV.</p>
+        <a href="path/to/your/cv.pdf" download="Chrysovalantis_Tsiartas_CV.pdf" class="download-button">Download</a>
+    </div>
+
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const typedText = document.getElementById('typed-text');
             const typedDate = document.getElementById('typed-date');
             const name = "CHRYSOVALANTIS TSIARTAS";
@@ -43,7 +58,7 @@
             function typeEffect(text, element) {
                 element.innerHTML = "";
                 for (let i = 0; i < text.length; i++) {
-                    setTimeout(function() {
+                    setTimeout(function () {
                         element.innerHTML += text[i];
                     }, 90 * i);
                 }
@@ -53,10 +68,12 @@
             typeEffect(name, typedText);
 
             // After typing the name, add a delay and then type the date
-            setTimeout(function() {
+            setTimeout(function () {
                 typeEffect(date, typedDate);
             }, 90 * name.length + 1000); // Add a delay of 1000 milliseconds (1 second)
         });
     </script>
+
 </body>
+
 </html>
