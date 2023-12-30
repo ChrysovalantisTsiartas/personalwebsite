@@ -1,188 +1,283 @@
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url('Black-carbon-fabric-wallpaper-for-gamer.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-    overflow-x: hidden;
-    height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('Black-carbon-fabric-wallpaper-for-gamer.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+  height: 100%;
 }
-
-
 
 
 header {
-    background-color: #333;
-    padding: 20px; /* Reduced padding */
-    text-align: center;
-    font-size: 30px;
+  background-color: #333;
+  padding: 20px; /* Reduced padding */
+  text-align: center;
+  font-size: 30px;
 }
 
 #logo {
-    font-size: 20px; /* Reduced font size */
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block; /* Added to make h1 inline */
+  font-size: 40px; /* Reduced font size */
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block; /* Added to make h1 inline */
+  float: left;
 }
 
-nav {
-    text-align: center;
-    margin: 10px 0;
-    display: inline-block; /* Added to make nav ul inline */
+#navbar {
+  text-align: center;
+  margin: 10px 0;
+  display: inline-block; /* Added to make nav ul inline */
 }
 
 nav a {
-    display: inline;
-    margin-right: 20px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 16px; /* Reduced font size */
-    transition: color 0.3s ease;
+  display: inline;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px; /* Your chosen font size */
+  font-family: 'Montserrat', sans-serif; /* Your chosen font family */
+  transition: color 0.3s ease;
 }
+
 
 nav a:hover {
-    color: #1bd12a;
+  color: #1bd12a;
 }
 
-#logo {
-    font-size: 25px;
-    font-weight: 700;
-    font-family: serif;
-    text-align: left;
-    float: left;
+.img-container {
+  position: relative;
 }
 
 img {
-    max-width: 45%;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    margin: 20px auto;
-    display: block;
-    float: right;
-    margin-right: 20px;
+  max-width: 45%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  margin: 20px auto;
+  display: block;
+  float: right;
+  margin-right: 20px;
+  position: relative; /* Add position relative to the img */
 }
 
 img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .info-box {
-    max-width: 25%;
-    margin: 85px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  max-width: 40%;
+  margin: 85px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .info-box h2 {
-    font-size: 30px;
-    color: black;
+  font-size: 60px;
+  color: black;
 }
 
 .info-box p {
-    font-size: 20px;
-    text-align: center;
-    color: black;
+  font-size: 40 px;
+  text-align: center;
+  color: black;
 }
 
 h2 {
-    font-size: 35px;
-    margin-bottom: 10px;
-    text-align: center;
+  font-size: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #1bd12a; /* Change the color to a cool green */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+  letter-spacing: 2px; /* Adjust letter spacing */
+  font-family: 'Impact', sans-serif; /* Change font family to Impact or a similar bold font */
 }
 
+
 p3 {
-    font-size: 40px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    text-align: justify;
+  font-size: 40px;
+  color: #fff; /* Text color */
+  line-height: 1.6; /* Adjust line height for better readability */
+  text-align: justify;
+  margin-bottom: 20px;
+  margin-left: 50px; /* Adjust this value to move it more to the right */
+}
+
+h5 {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 32px;
+  color: #1bd12a;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+  transition: color 0.3s ease, transform 0.3s ease-in-out; /* Smooth color and transform transition */
+}
+
+h5:hover {
+  color: #ffcc00; /* Change color on hover to a bright yellow */
+  transform: scale(1.1); /* Add a slight scale effect on hover */
+}
+
+h6 {
+  font-size: 30px;
+  color: #857531; /* Adjust the color to your preference */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
 }
 
 h4 {
-    font-size: 50px;
+  font-size: 28px;
+  color: #0e6478; /* Change color to a cool green */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
 }
 
-p3:hover {
-    color: #d1c898;
-}
+
 
 .typing-effect {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 #typed-text {
-    font-size: 20px;
-    letter-spacing: 2px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: whitesmoke; /* Change the color to a warm yellow */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow */
+  font-family: 'Caveat', cursive; /* Change font family to a cursive or handwritten style */
 }
 
+#typed-date {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #66ccff; /* Change the color to a light blue */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow */
+  font-family: 'Open Sans', sans-serif; /* Change font family to a sans-serif font */
+}
+
+
+/* Update your existing or create a new stylesheet with the following styles */
+
+.cv-box {
+  text-align: center;
+  margin: 0 auto; /* Set margin-top to 0 */
+  padding: 5px 10px; /* Adjust padding to make the box smaller on the edges */
+  background-color: #333; /* Match the background color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: absolute; /* Change position to absolute */
+  bottom: 52%; /* Adjust the distance from the bottom */
+  left: 37%; /* Center the box horizontally */
+  transform: translateX(-50%); /* Adjust to center the box */
+}
+
+/* ... (other styles remain the same) */
+
+
+.cv-box h3 {
+  font-size: 35px;
+  color: #fff; /* Text color */
+}
+
+.cv-box p {
+  font-size: 25px;
+  color: #ccc; /* Text color */
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1bd12a;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #147a17;
+}
+
+
+
 @media only screen and (max-width: 768px) {
-    header {
-        padding: 10px;
-        font-size: 20px;
-    }
+  header {
+      padding: 10px;
+      font-size: 20px;
+  }
 
-   #logo {
-        font-size: 20px;
-        margin-top: 5px;
-        display: block;
-    }
+ #logo {
+      font-size: 20px;
+      margin-top: 5px;
+      display: block;
+  }
 
-    nav {
-        margin: 5px 0;
-        display: block;
-    }
+  nav {
+      margin: 5px 0;
+      display: block;
+  }
 
-    nav a {
-        font-size: 16px;
-    }
+  nav a {
+      font-size: 16px;
+  }
 
-    img {
-        float: none; /* Remove float */
-        max-width: 90%;
-        margin: 10px auto; /* Adjust margin */
-    }
+  img {
+      float: none; /* Remove float */
+      max-width: 90%;
+      margin: 10px auto; /* Adjust margin */
+  }
 
-    .info-box {
-        max-width: 90%;
-    }
+  .info-box {
+      max-width: 90%;
+  }
 
-    .info-box h2 {
-        font-size: 20px;
-    }
+  .info-box h2 {
+      font-size: 20px;
+  }
 
-    .info-box p {
-        font-size: 14px;
-    }
+  .info-box p {
+      font-size: 14px;
+  }
 
-    h2 {
-        font-size: 40px;
-    }
+  h2 {
+      font-size: 40px;
+  }
 
-    p3 {
-        font-size: 30px;
-    }
+  p3 {
+      font-size: 30px;
+  }
 
-    h4 {
-        font-size: 40px;
-    }
+  h4 {
+      font-size: 40px;
+  }
 
-    .typing-effect {
-        margin-top: 30px;
-    }
+  .typing-effect {
+      margin-top: 30px;
+  }
 
-    #typed-text {
-        font-size: 16px;
-    }
+  #typed-text {
+      font-size: 16px;
+  }
 }
