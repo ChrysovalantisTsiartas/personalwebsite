@@ -1,9 +1,6 @@
 /* Global Styles */
-html {
+html, body {
   height: 100%;
-}
-
-body {
   margin: 0;
   padding: 0;
   background-image: url('Black-carbon-fabric-wallpaper-for-gamer.jpg');
@@ -16,10 +13,16 @@ body {
   height: 100%;
 }
 
-p3{
+p3 {
   font-size: 40px;
+  color: #f5f5f5;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
 }
 
+
+/* Header Styles */
 header {
   background-color: #333;
   padding: 20px;
@@ -55,6 +58,11 @@ nav a {
 
 nav a:hover {
   color: #1bd12a;
+}
+
+/* Image Styles */
+.img-container {
+  position: relative;
 }
 
 img {
@@ -109,7 +117,7 @@ h5 {
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 40px;
+  font-size: 45px;
   color: #1bd12a;
   margin-bottom: 15px;
   font-weight: bold;
@@ -125,7 +133,7 @@ h5:hover {
 }
 
 h6 {
-  font-size: 40px;
+  font-size: 50px;
   color: #857531;
   font-weight: bold;
   text-align: center;
@@ -133,7 +141,7 @@ h6 {
 }
 
 h4 {
-  font-size: 35px;
+  font-size: 40px;
   color: #0e6478;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -141,6 +149,7 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 /* Typing Effect Styles */
@@ -168,13 +177,13 @@ h4 {
 /* CV Box Styles */
 .cv-box {
   text-align: center;
-  margin: 20px auto; /* Adjusted margin-top */
+  margin: 20px auto;
   margin-left: 470px;
   padding: 20px;
   background-color: #333;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 40%; /* Adjusted width */
+  width: 40%;
 }
 
 .cv-box h3 {
