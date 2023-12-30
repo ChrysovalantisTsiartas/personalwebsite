@@ -1,3 +1,4 @@
+/* Global Styles */
 html {
   height: 100%;
 }
@@ -15,27 +16,26 @@ body {
   height: 100%;
 }
 
-
 header {
   background-color: #333;
-  padding: 20px; /* Reduced padding */
+  padding: 20px;
   text-align: center;
   font-size: 30px;
 }
 
 #logo {
-  font-size: 40px; /* Reduced font size */
+  font-size: 40px;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  display: inline-block; /* Added to make h1 inline */
+  display: inline-block;
   float: left;
 }
 
 #navbar {
   text-align: center;
   margin: 10px 0;
-  display: inline-block; /* Added to make nav ul inline */
+  display: inline-block;
 }
 
 nav a {
@@ -44,16 +44,16 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
-  font-size: 40px; /* Your chosen font size */
-  font-family: 'Montserrat', sans-serif; /* Your chosen font family */
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
   transition: color 0.3s ease;
 }
-
 
 nav a:hover {
   color: #1bd12a;
 }
 
+/* Image Styles */
 .img-container {
   position: relative;
 }
@@ -67,13 +67,14 @@ img {
   display: block;
   float: right;
   margin-right: 20px;
-  position: relative; /* Add position relative to the img */
+  position: relative;
 }
 
 img:hover {
   transform: scale(1.05);
 }
 
+/* Info Box Styles */
 .info-box {
   max-width: 40%;
   margin: 85px auto;
@@ -89,29 +90,20 @@ img:hover {
 }
 
 .info-box p {
-  font-size: 40 px;
+  font-size: 40px;
   text-align: center;
   color: black;
 }
 
+/* Headings Styles */
 h2 {
   font-size: 80px;
   margin-bottom: 10px;
   text-align: center;
-  color: #1bd12a; /* Change the color to a cool green */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
-  letter-spacing: 2px; /* Adjust letter spacing */
-  font-family: 'Impact', sans-serif; /* Change font family to Impact or a similar bold font */
-}
-
-
-p3 {
-  font-size: 40px;
-  color: #fff; /* Text color */
-  line-height: 1.6; /* Adjust line height for better readability */
-  text-align: justify;
-  margin-bottom: 20px;
-  margin-left: 50px; /* Adjust this value to move it more to the right */
+  color: #1bd12a;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  font-family: 'Impact', sans-serif;
 }
 
 h5 {
@@ -124,18 +116,18 @@ h5 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
-  transition: color 0.3s ease, transform 0.3s ease-in-out; /* Smooth color and transform transition */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: color 0.3s ease, transform 0.3s ease-in-out;
 }
 
 h5:hover {
-  color: #ffcc00; /* Change color on hover to a bright yellow */
-  transform: scale(1.1); /* Add a slight scale effect on hover */
+  color: #ffcc00;
+  transform: scale(1.1);
 }
 
 h6 {
   font-size: 30px;
-  color: #857531; /* Adjust the color to your preference */
+  color: #857531;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
@@ -143,17 +135,16 @@ h6 {
 
 h4 {
   font-size: 28px;
-  color: #0e6478; /* Change color to a cool green */
+  color: #0e6478;
   margin-top: 20px;
   margin-bottom: 10px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-
-
+/* Typing Effect Styles */
 .typing-effect {
   text-align: center;
   margin-top: 50px;
@@ -162,46 +153,39 @@ h4 {
 #typed-text {
   font-size: 40px;
   letter-spacing: 2px;
-  color: whitesmoke; /* Change the color to a warm yellow */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow */
-  font-family: 'Caveat', cursive; /* Change font family to a cursive or handwritten style */
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  font-family: 'Caveat', cursive;
 }
 
 #typed-date {
   font-size: 30px;
   letter-spacing: 2px;
-  color: #66ccff; /* Change the color to a light blue */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow */
-  font-family: 'Open Sans', sans-serif; /* Change font family to a sans-serif font */
+  color: #66ccff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  font-family: 'Open Sans', sans-serif;
 }
 
-
-/* Update your existing or create a new stylesheet with the following styles */
-
+/* CV Box Styles */
 .cv-box {
   text-align: center;
-  margin: 0 auto; /* Set margin-top to 0 */
-  padding: 5px 10px; /* Adjust padding to make the box smaller on the edges */
-  background-color: #333; /* Match the background color */
+  margin: 20px auto; /* Adjusted margin-top */
+  margin-left: 470px;
+  padding: 20px;
+  background-color: #333;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  position: absolute; /* Change position to absolute */
-  bottom: 52%; /* Adjust the distance from the bottom */
-  left: 37%; /* Center the box horizontally */
-  transform: translateX(-50%); /* Adjust to center the box */
+  width: 40%; /* Adjusted width */
 }
-
-/* ... (other styles remain the same) */
-
 
 .cv-box h3 {
   font-size: 35px;
-  color: #fff; /* Text color */
+  color: #fff;
 }
 
 .cv-box p {
   font-size: 25px;
-  color: #ccc; /* Text color */
+  color: #ccc;
 }
 
 .download-button {
@@ -220,64 +204,71 @@ h4 {
   background-color: #147a17;
 }
 
-
-
 @media only screen and (max-width: 768px) {
   header {
-      padding: 10px;
-      font-size: 20px;
+    padding: 10px;
+    font-size: 20px;
   }
 
- #logo {
-      font-size: 20px;
-      margin-top: 5px;
-      display: block;
+  #logo {
+    font-size: 20px;
+    margin-top: 5px;
+    display: block;
   }
 
   nav {
-      margin: 5px 0;
-      display: block;
+    margin: 5px 0;
+    display: block;
   }
 
   nav a {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   img {
-      float: none; /* Remove float */
-      max-width: 90%;
-      margin: 10px auto; /* Adjust margin */
+    float: none;
+    max-width: 90%;
+    margin: 10px auto;
   }
 
   .info-box {
-      max-width: 90%;
+    max-width: 90%;
   }
 
   .info-box h2 {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .info-box p {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   h2 {
-      font-size: 40px;
+    font-size: 40px;
   }
 
   p3 {
-      font-size: 30px;
+    font-size: 30px;
   }
 
   h4 {
-      font-size: 40px;
+    font-size: 40px;
   }
 
   .typing-effect {
-      margin-top: 30px;
+    margin-top: 30px;
   }
 
   #typed-text {
-      font-size: 16px;
+    font-size: 16px;
+  }
+
+  /* Responsive Styles for CV Box */
+  .cv-box {
+    width: 80%;
+  }
+
+  .download-button {
+    font-size: 20px;
   }
 }
