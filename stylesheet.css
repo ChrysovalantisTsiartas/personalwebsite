@@ -53,11 +53,6 @@ nav a:hover {
   color: #1bd12a;
 }
 
-/* Image Styles */
-.img-container {
-  position: relative;
-}
-
 img {
   max-width: 45%;
   border-radius: 15px;
@@ -126,7 +121,7 @@ h5:hover {
 }
 
 h6 {
-  font-size: 30px;
+  font-size: 40px;
   color: #857531;
   font-weight: bold;
   text-align: center;
@@ -134,7 +129,7 @@ h6 {
 }
 
 h4 {
-  font-size: 28px;
+  font-size: 35px;
   color: #0e6478;
   margin-top: 20px;
   margin-bottom: 10px;
